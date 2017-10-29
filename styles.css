@@ -1,0 +1,184 @@
+#body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #C70039;
+}
+
+#heading{
+  background-color: #e3f2fd;
+}
+
+#heading > a{
+  margin-left:50px;
+  font-size: 20px;
+}
+
+#breadcrumb{
+  background-color:	#6A5ACD;
+  display: inline-block;
+}
+
+#list{
+  font-size: 18px;
+  font-weight: bolder;
+  font-style: oblique;
+  display: inline-block;
+}
+
+#text{
+  font-size: 24px;
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+#text1{
+  margin-left: 500px;
+}
+
+#table{
+  max-width: 400px;
+  margin-left: 170px;
+}
+
+#response{
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.class1{
+  font-style: oblique;
+  display: inline-grid;
+  text-decoration-style: solid;
+  font-weight: bolder;
+}
+
+.class2{
+  font-style: italic;
+  display : inline-block;
+  text-decoration-style: solid;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+#nav1{
+  margin-left: 650px;
+  font-size: 16px;
+}
+
+.footer{
+  margin-top:200px;
+  background-color: #50394c;
+  padding-left: 530px;
+}
+
+#copyright{
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+@media (min-width: 1200px){
+  #nav1{
+    font-size: 16px;
+    margin-left: auto;
+  }
+  #heading > a{
+    margin-left:50px;
+    font-size: 20px;
+  }
+  #text{
+    font-size: 24px;
+  }
+  #response{
+    font-size: 20px;
+  }
+  #list{
+    font-size: 18px;
+  }
+  .footer{
+    padding-left: 530px;
+  }
+  #copyright{
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  #nav1{
+    font-size: 14px;
+    margin-left: auto;
+  }
+  #heading > a{
+    margin-left:50px;
+    font-size: 16px;
+  }
+  #text{
+    font-size: 20px;
+  }
+  #response{
+    font-size: 20px;
+  }
+  #list{
+    font-size: 18px;
+  }
+  .footer{
+    padding-left: 40%;
+  }
+  #copyright{
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  #nav1{
+    margin-left: 0px;
+    font-size: 14px;
+  }
+  #heading > a{
+    margin-left: 50px;
+    font-size: 16px;
+  }
+  #text{
+    font-size: 16px;
+  }
+  #response{
+    font-size: 16px;
+  }
+  #list{
+    font-size: 16px;
+  }
+  .footer{
+    padding-left: 35%;
+  }
+  #copyright{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px){
+  #nav1{
+    margin-left: 0px;
+    font-size: 14px;
+  }
+  #heading > a{
+    margin-left: 50px;
+    font-size: 16px;
+  }
+  #text{
+    font-size: 16px;
+  }
+  #response{
+    font-size: 16px;
+  }
+  #list{
+    font-size: 16px;
+  }
+  .footer{
+    padding-left: 25%;
+  }
+  #copyright{
+    font-size: 10px;
+  }
+}
